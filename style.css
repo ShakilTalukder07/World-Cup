@@ -4,12 +4,15 @@ body{
     margin: 0 auto;
     padding: 0%;
 }
+
 .headline{
     font-size: 4vw;
     color: white;
+    margin-left: 8%;
 }
 .text-color{
     color: white;
+    padding-left: 8%;
 }
 .header-color{
     background-color: black;
@@ -31,6 +34,7 @@ body{
     padding: 10px 10px 10px 10px;
     color: white;
     text-decoration: none;
+    margin-left: 8%;
 }
 .button-1:hover{
     background-color: aqua;
