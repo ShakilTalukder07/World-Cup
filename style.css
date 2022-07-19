@@ -92,14 +92,18 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     grid-column-gap: 24px;
-    width: 50%;
-    margin-top: 50px;
+    margin-top: 40px;
     background-color: #fff;
     justify-content: left;
-    width: 78%;
+    width: 80%;
+}
+.transfer{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 5%;
 }
 .transfer .transfer-banner img{
-    width: 224px;
+    width: 250px;
     height: 120px;
 }
 .button-2{
