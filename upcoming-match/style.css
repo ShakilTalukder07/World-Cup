@@ -1,33 +1,38 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     max-width: 1000px;
     margin: 0 auto;
     padding: 0%;
 }
 
-.headline{
+.headline {
     font-size: 4vw;
     color: white;
     margin-left: 8%;
 }
-.text-color{
+
+.text-color {
     color: white;
     padding-left: 8%;
 }
-.header-color{
+
+.header-color {
     background-color: black;
     border-radius: 15px;
     background-size: 100vh;
     height: 30%;
 }
-.header-img{
+
+.header-img {
     display: flex;
 }
-.fix-image{
+
+.fix-image {
     margin-top: 10%;
     margin-left: 13%;
 }
-.button-1{
+
+.button-1 {
     size: 35px;
     background-color: #DD0000;
     border-radius: 10px;
@@ -36,17 +41,22 @@ body{
     text-decoration: none;
     margin-left: 8%;
 }
-.button-1:hover{
+
+.button-1:hover {
     background-color: aqua;
 
 }
-/* transfer section  */
 
-.second-section{
+/* ------------
+2nd section
+-----------  */
+
+.second-section {
     display: flex;
     margin-bottom: 15%;
 }
-.side-buttons{
+
+.side-buttons {
     width: 18%;
     background-color: black;
     margin-top: 50px;
@@ -54,12 +64,14 @@ body{
     height: 40%;
     border-radius: 10px;
 }
-.side-buttons a{
+
+.side-buttons a {
     text-decoration: none;
 }
-.button-3{
+
+.button-6 {
     size: 10em;
-    background-color: #FFFFFF;
+    background-color: #DD0000;
     border-radius: 30px;
     padding: 10px 10px 10px 10px;
     color: white;
@@ -67,7 +79,8 @@ body{
     padding-left: 11%;
     text-decoration: none;
 }
-.button-4{
+
+.button-7 {
     size: 10em;
     background-color: #FFFFFF;
     border-radius: 30px;
@@ -77,9 +90,10 @@ body{
     padding-left: 30%;
     text-decoration: none;
 }
-.button-5{
+
+.button-8 {
     size: 10em;
-    background-color: #DD0000;
+    background-color: #FFFFFF;
     border-radius: 30px;
     padding: 10px 10px 10px 10px;
     color: white;
@@ -88,7 +102,12 @@ body{
     text-decoration: none;
     margin-bottom: 10%;
 }
-.transfers{
+
+/*----------------
+ 2nd section 
+ ----------- */
+
+.matches {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     grid-column-gap: 24px;
@@ -97,34 +116,31 @@ body{
     justify-content: left;
     width: 80%;
 }
-.transfer{
+
+.match {
     border: 1px solid black;
     border-radius: 10px;
     margin-top: 5%;
 }
-.transfer .transfer-banner img{
-    width: 250px;
-    height: 120px;
-}
-.button-2{
-    padding: 5px 10px 5px 10px;
-    size: 7em;
-}
-.transfer-info{
-    display: flex;
-    justify-content: space-between;
-}
-.time{
-    display: flex;
-    justify-content: left;
+
+.match-banner {
+    padding-left: 5%;
+    padding-top: 5%;
 }
 
-/* Footer  */
+.match-details {
+    padding-left: 5%;
+}
 
-footer{
+/*-------------
+ footer
+----------*/
+
+footer {
     background-color: black;
 }
-footer h1{
+
+footer h1 {
     color: white;
     margin-top: 10%;
     margin-bottom: 6%;
@@ -132,20 +148,24 @@ footer h1{
     justify-content: center;
     align-items: center;
 }
-footer hr{
+
+footer hr {
     width: 94%;
     position: center;
 }
-footer a{
+
+footer a {
     text-decoration: none;
 }
-.contact{
+
+.contact {
     display: flex;
     justify-content: space-around;
     color: #FFFFFF;
     margin-bottom: 5%;
 }
-.social-icons a{
+
+.social-icons a {
     width: 40px;
     height: 40px;
     display: flex;
@@ -154,22 +174,25 @@ footer a{
     margin: 10px 20px;
     border-radius: 50%;
 }
-.social-icons{
+
+.social-icons {
     display: flex;
     justify-content: center;
 }
-.social-icons i{
+
+.social-icons i {
     color: #000000;
 }
+
 .social-icons a:hover,
-.a-social-b a:hover{
+.a-social-b a:hover {
     background-color: #000000;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     transition: all ease 0.5s;
 }
+
 .social-icons a:hover i,
-.a-social-b a:hover i{
+.a-social-b a:hover i {
     color: #FFFFFF;
     transition: all ease 0.5s;
 }
-
