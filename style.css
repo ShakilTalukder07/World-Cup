@@ -27,6 +27,7 @@ body{
     margin-top: 10%;
     margin-left: 13%;
 }
+
 .button-1{
     size: 35px;
     background-color: #DD0000;
@@ -38,9 +39,16 @@ body{
 }
 .button-1:hover{
     background-color: aqua;
-
 }
+.button-1:active{
+    background-color: aqua;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+
 /* transfer section  */
+
 
 .second-section{
     display: flex;
