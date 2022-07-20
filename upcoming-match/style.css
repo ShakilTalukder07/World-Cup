@@ -212,7 +212,7 @@ media for tab
 ------------- */
  @media screen and (min-width: 577px) and (max-width: 992px){
     .matches{
-        grid-template-columns: repeat(2,2fr);
+        grid-template-columns: repeat(2, 2fr);
     }
     .second-section{
         display: flex;
