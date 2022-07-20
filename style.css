@@ -4,7 +4,12 @@ body{
     margin: 0 auto;
     padding: 0%;
 }
-
+.container{
+    background-color: black;
+    border-radius: 15px;
+    background-size: 100vh;
+    height: 35%;
+}
 .headline{
     font-size: 4vw;
     color: white;
@@ -13,12 +18,6 @@ body{
 .text-color{
     color: white;
     padding-left: 8%;
-}
-.header-color{
-    background-color: black;
-    border-radius: 15px;
-    background-size: 100vh;
-    height: 30%;
 }
 .header-img{
     display: flex;
@@ -59,42 +58,39 @@ body{
     background-color: black;
     margin-top: 50px;
     margin-right: 3%;
-    height: 40%;
+    height: 45%;
     border-radius: 10px;
 }
 .side-buttons a{
     text-decoration: none;
 }
 .button-3{
-    size: 10em;
+    size: 35px;
     background-color: #FFFFFF;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px 10px 10px 10px;
     color: white;
-    margin-top: 10%;
-    padding-left: 11%;
     text-decoration: none;
+    margin-top: 10px;
 }
 .button-4{
-    size: 10em;
+    size: 35px;
     background-color: #FFFFFF;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px 10px 10px 10px;
     color: white;
-    margin-top: 10%;
-    padding-left: 30%;
     text-decoration: none;
+    margin-top: 10px;
 }
 .button-5{
-    size: 10em;
-    background-color: #DD0000;
-    border-radius: 30px;
+    size: 35px;
+    background-color: red;
+    border-radius: 10px;
     padding: 10px 10px 10px 10px;
     color: white;
-    margin-top: 10%;
-    padding-left: 40%;
     text-decoration: none;
-    margin-bottom: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .transfers{
     display: grid;
@@ -125,6 +121,17 @@ body{
 .time{
     display: flex;
     justify-content: left;
+}
+.view-btn{
+    size: 15px;
+    background-color: #DD0000;
+    border-radius: 10px;
+    padding: 10px 10px 10px 35px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10%;
+    margin-left: 43%;
+    margin-right: 43%;
 }
 
 /* Footer  */
@@ -187,12 +194,38 @@ footer a{
 ----------------- */
 
 
+/* -------------
+  media for pc 
+--------------- */
+
+@media screen and (min-width: 992px){
+    .view-btn{
+        display: none;
+    }
+    
+}
+
 /* ------------
 media for tab 
 ------------- */
 @media screen and (min-width: 577px) and (max-width: 992px){
     .transfers{
         grid-template-columns: repeat(2, 2fr);
+    }
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .view-btn{
+        text-decoration: none;
     }
 }
 
@@ -201,7 +234,36 @@ media or mobile
  ------------ */
 
 @media  screen and (max-width: 577px) {
+
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .side-buttons{
+        background-color: white;
+    }
     .transfers{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .view-btn{
+        display: none;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin-left: 45%;
+        align-items: space-evenly;
+    }
+    .header-img{
+        display: flex;
+        flex-direction: column;
     }
 }
