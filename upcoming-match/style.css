@@ -70,38 +70,38 @@ body {
 }
 
 .button-6 {
-    size: 10em;
+    size: 35px;
     background-color: #DD0000;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px 10px 10px 10px;
     color: white;
-    margin-top: 10%;
-    padding-left: 11%;
     text-decoration: none;
+    margin-left: 2%;
+    margin-top: 5px;
 }
 
 .button-7 {
-    size: 10em;
+    size: 35px;
     background-color: #FFFFFF;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px 10px 10px 10px;
     color: white;
-    margin-top: 10%;
-    padding-left: 30%;
     text-decoration: none;
+    margin-left: 2%;
+    margin-top: 5px;
 }
 
 .button-8 {
-    size: 10em;
+    size: 35px;
     background-color: #FFFFFF;
-    border-radius: 30px;
-    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    padding: 0px 10px 10px 10px;
     color: white;
-    margin-top: 10%;
-    padding-left: 40%;
     text-decoration: none;
-    margin-bottom: 10%;
-}
+    margin-left: 2%;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}    
 
 /*----------------
  2nd section 
@@ -197,7 +197,7 @@ footer a {
     transition: all ease 0.5s;
 }
 
-* ---------------
+/* ---------------
      Responcive 
 ----------------- */
 
@@ -210,7 +210,9 @@ footer a {
 /* ------------
 media for tab 
 ------------- */
- @media screen and (min-width: 577px) and (max-width: 992px){
+
+@media  screen and (min-width: 577px) and (max-width: 992px) {
+
     .matches{
         grid-template-columns: repeat(2, 2fr);
     }
@@ -225,7 +227,7 @@ media for tab
         height: auto;
         background-color: white;
         border-radius: 10px;
-    }
+    }    
 }
 
 /* ------------
