@@ -181,3 +181,27 @@ footer a{
     transition: all ease 0.5s;
 }
 
+
+/* ---------------
+     Responcive 
+----------------- */
+
+
+/* ------------
+media for tab 
+------------- */
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .transfers{
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+/* ------------
+media or mobile
+ ------------ */
+
+@media  screen and (max-width: 577px) {
+    .transfers{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
