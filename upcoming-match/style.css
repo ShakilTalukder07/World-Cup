@@ -196,3 +196,70 @@ footer a {
     color: #FFFFFF;
     transition: all ease 0.5s;
 }
+
+* ---------------
+     Responcive 
+----------------- */
+
+
+/* -------------
+  media for pc 
+--------------- */
+
+
+/* ------------
+media for tab 
+------------- */
+ @media screen and (min-width: 577px) and (max-width: 992px){
+    .matches{
+        grid-template-columns: repeat(2,2fr);
+    }
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+    }
+}
+
+/* ------------
+media or mobile
+ ------------ */
+
+ @media  screen and (max-width: 577px) {
+
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .side-buttons{
+        background-color: white;
+    }
+    .matches{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin-left: 45%;
+        align-items: space-evenly;
+    }
+    .header-img{
+        display: flex;
+        flex-direction: column;
+    }
+}
