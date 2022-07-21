@@ -224,6 +224,10 @@ media for tab
         height: auto;
         background-color: white;
         border-radius: 10px;
+    }
+    .contact{
+        display: flex;
+        flex: wrap;
     }    
 }
 
