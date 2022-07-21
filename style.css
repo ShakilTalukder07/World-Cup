@@ -227,6 +227,10 @@ media for tab
     .view-btn{
         text-decoration: none;
     }
+    .contact{
+        display: flex;
+        flex: wrap;
+    }
 }
 
 /* ------------
